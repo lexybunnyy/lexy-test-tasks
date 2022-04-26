@@ -5,14 +5,25 @@ describe('TableIndex', () => {
     expect(new TableIndex(0, 0)).toBeTruthy();
   });
 
-  /*it('equals', () => {
+
+/*
+  it('equals true 0,0', () => {
     let ti1 = new TableIndex(0, 0);
     expect(ti1.equals(0, 0)).toBeTruthy();
   });
 
-  it('equals2', () => {
+  it('equals true 2,3', () => {
+    let ti1 = new TableIndex(0, 0);
+
+    expect(new TableIndex(2, 3).equals(3, 2)).toBeFalse();
+  });
+
+
+  it('equals 2 objects', () => {
     let ti1 = new TableIndex(0, 0);
     let ti2 = new TableIndex(0, 0);
     expect(TableIndex.equals(ti1, ti2)).toBeTruthy();
-  });*/
+  });
+  
+  */
 });

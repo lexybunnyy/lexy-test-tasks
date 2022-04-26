@@ -6,6 +6,8 @@ describe('TableIndexArray', () => {
     expect(new TableIndexArray()).toBeTruthy();
   });
 
+  /*
+
   it('I can push ', () => {
     let array = new TableIndexArray();
     let item = new TableIndex(0, 0);
@@ -13,7 +15,6 @@ describe('TableIndexArray', () => {
     expect(array.push(item)).toBeTruthy();
   });
 
-  /*
   it('I can pop', () => {
     let array = new TableIndexArray();
 
@@ -56,5 +57,7 @@ describe('TableIndexArray', () => {
     
     expect(array.includesXY(1, 1)).toBeTruthy();
     expect(array.includesXY(5, 5)).toBeFalse();
-  });*/
+  });
+  
+  */
 });
