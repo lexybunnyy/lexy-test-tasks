@@ -6,7 +6,7 @@ describe('TableIndexArray', () => {
     expect(new TableIndexArray()).toBeTruthy();
   });
 
-  /*
+/*
 
   it('I can push ', () => {
     let array = new TableIndexArray();
