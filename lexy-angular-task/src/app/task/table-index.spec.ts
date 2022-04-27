@@ -7,11 +7,11 @@ describe('TableIndex', () => {
 
   it('equals true 0,0', () => {
     let ti1 = new TableIndex(0, 0);
-    expect(ti1.equals(0, 0)).toBeTruthy();
+    expect(ti1.equals(0, 0)).toBeTrue();
   });
 
   it('equals true 2,3', () => {
-    expect(new TableIndex(2, 3).equals(2, 3)).toBeFalse();
+    expect(new TableIndex(2, 3).equals(2, 3)).toBeTrue();
   });
 
 
