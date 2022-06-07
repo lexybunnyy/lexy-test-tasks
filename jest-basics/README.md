@@ -1,21 +1,19 @@
 
 # JavaScript egységtesztelés
-## Jest
-
-https://jestjs.io/
 
 ## Miért van szükség tesztekre?
 
-- gyorsabb fejlesztés
+- Gyorsabb fejlesztés
 Sokszor nem kell mindent végig kattingatni újra meg újra, gyorsabban tudod ellenőrízni hogy a kód azt csinálja amit elvárunk tőle 
 
-- dokumentálja a kódod
+- Dokumentálja a kódod
 Megnézed a teszteket sokkal egyértelműbb mit is csinál pontosan az a kód.
 
-- kisebb hibázási lehetőség
+- Kisebb hibázási lehetőség
 Jobban végig gondolod a hiba lehetőségeket, persze ez sem garancia arra, hogy mindenre működni fog, de több esetet tudsz lefedni.  
 
-- Fejlesztés esetén gyorsabban kiderül a hibázás, kiderül ha valaki elrontja a funkcionalitást.
+- Gyorsabban kiderül ha hibázunk
+Fejlesztés esetén gyorsabban kiderül a hibázás, kiderül ha valaki elrontja a funkcionalitást.
 Amikor fejlesztünk egy kódot, előfordul hogy hibázunk, és bele nyúlunk az eredeti funkcionalításba. 
 Ha vannak tesztek, ez hamar kiderül, és látja a feljesztő is. 
 
@@ -24,6 +22,23 @@ Ha a kód le van fedve teszt esetekkel, könnyebb úgy szépítgetni olvashatób
 
 ## Hogyan írjunk teszteket
 
+### Jest Telepítése
+
+https://jestjs.io/
+https://jestjs.io/docs/getting-started 
+
+```bash
+npm install --save-dev jest
+```
+
+```js
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
+```
+
+### 
 
 ## Mire érdemes figyelni? 
 
@@ -58,3 +73,6 @@ Ezután hozz létre olyan esetet ami szintén nem működik, negatív számokkal
 https://hu.wikipedia.org/wiki/Tesztvez%C3%A9relt_fejleszt%C3%A9s 
 
 
+## Egyszerű példa TDD szerint
+
+### Jest Példák
