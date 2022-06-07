@@ -1,11 +1,10 @@
-README.md
 
-JavaScript egységtesztelés
-Jest
+# JavaScript egységtesztelés
+## Jest
 
 https://jestjs.io/
 
-# Miért van szükség tesztekre?
+## Miért van szükség tesztekre?
 
 - gyorsabb fejlesztés
 Sokszor nem kell mindent végig kattingatni újra meg újra, gyorsabban tudod ellenőrízni hogy a kód azt csinálja amit elvárunk tőle 
@@ -23,10 +22,10 @@ Ha vannak tesztek, ez hamar kiderül, és látja a feljesztő is.
 - Könnyebb refaktor
 Ha a kód le van fedve teszt esetekkel, könnyebb úgy szépítgetni olvashatóbbá tenni, hogy biztosak legyünk benne, nem rontjuk el a működését.
 
-# Hogyan írjunk teszteket
+## Hogyan írjunk teszteket
 
 
-# Mire érdemes figyelni? 
+## Mire érdemes figyelni? 
 
 - próbáljunk meg minnél több esetet lefedni
 - szélsőséges eseteket teszteljünk (pl negatív számok, nagyon kicsi számok, 0, nagyon nagy számok)
@@ -37,7 +36,7 @@ Ha a kód le van fedve teszt esetekkel, könnyebb úgy szépítgetni olvashatób
    - Szoktuk azt is mondani hogy törekedjünk hogy csak egy assert legyen benne, de persze nem mindig lesz így, de törekedjünk rá!
 
 
-# Tesztvezérelt fejlesztés
+## Tesztvezérelt fejlesztés
 
 Először írsz egy tesztet, utána írod meg hozzá a kódot ami átmegy a teszten.
 Próbálod minnél minimálisabban megoldani az adott teszt esetet, majd létre hozol egy olyan teszt esetet ami még elromlik. 
@@ -59,5 +58,3 @@ Ezután hozz létre olyan esetet ami szintén nem működik, negatív számokkal
 https://hu.wikipedia.org/wiki/Tesztvez%C3%A9relt_fejleszt%C3%A9s 
 
 
-
-# Milyen tesztek léteznek? 
