@@ -1,0 +1,39 @@
+<!-- Feladatok - elágazás és ciklus
+    - Írj ki annyi darab @-t amennyi számot beadunk :) 
+    - Add össze a számokat 1-től 5ig 
+    - Add össze a számokat 1-től 5ig ciklussal :) 
+    - egy beadott számról döntsük el, hogy pozitív vagy negatív? 
+    - egy megadott szövegről döntsük el, hogy szám-e? 
+-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Szia!</h1>
+
+<button onclick="f2()">Klikk</button>
+
+<script>
+
+function f() {
+  let num1 = Number(prompt("Add number1", 1));
+  for (let i = 0; i < num1; i++) {
+    alert(i + 1)
+  }
+}
+
+function f2() {
+  let num1 = Number(prompt("Add number1", 1));
+  let string = '';
+  while (string.length < num1) {
+    string += '@'
+    alert(string);
+  }
+}
+
+</script>
+
+</body>
+</html>

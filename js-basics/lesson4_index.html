@@ -1,0 +1,38 @@
+<!-- Feladatok - Stringek, és listák
+    - Írjuk ki a lista elemeit egyesével.
+    - "darabteli" - számoljuk meg hány darab kettes van a listában
+    - számoljuk meg hány darab +, -, . van a szövegekben
+    - keressük meg a legnagyobb számot? 
+    - keressük meg a legkisebb számot 
+
+    - csináljunk saját listát
+        - kérjünk be több adatot (ciklusba több lekérdezés) 
+        - majd utána írjuk ki a lista összes elemét.
+-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Szia!</h1>
+
+<button onclick="f()">Klikk</button>
+
+<script>
+
+let numlist = [1, 3, 5, 2, 6, 8, 9, 2, 2];
+let strList = "abcd+456ls+das+DASD";
+let strList2 = "abcd-456ls-das.DAS.D";
+
+function f() {
+  let num1 = Number(prompt("Add number1", 1));
+  for (let i = 0; i < num1; i++) {
+    alert(i + 1)
+  }
+}
+
+</script>
+
+</body>
+</html>
