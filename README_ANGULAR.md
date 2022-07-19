@@ -31,6 +31,11 @@ cd ~/git/testProj/Frontend/src/app/_helpers
 ng test --include='**/_helpers/*.spec.ts'
 ```
 
+## Build
+``` 
+ng build --configuration production
+```
+
 
 # Nodejs & Library update
 ## Library updates (npm)
