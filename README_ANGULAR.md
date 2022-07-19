@@ -1,15 +1,27 @@
+## What is this?
+This is a file, where I put all of the useful commands about how Angular 10+ and nodejs works.
+
 ## Install
 ``` 
 cd ~/git/marksheets-ng/
 npm update --save --legacy-peer-deps
 ``` 
 
-# start Angular service
+## Serve to localhost:
 ```
 nvm use default 
 npm update
 ng serve -o
 ``` 
+
+## Serve to localhost with proxy:
+``` 
+cd ~/git/testProj/Frontend
+npm update
+npm audit fix
+ng serve --proxy-config proxy.conf.json --open
+```
+- Open Browser: http://localhost:4200/.
 
 # nodejs check
 ``` 
@@ -18,10 +30,13 @@ nvm list
 ```
 
 # angular lib updates
+https://angular.io/cli/update
+https://update.angular.io/ 
 ``` 
 npm i -g npm-upgrade
 npm-upgrade check
 npm install --save --legacy-peer-deps
+npm update
 ``` 
 
 # nodejs set default stable version 
@@ -44,3 +59,52 @@ nvm alias unstable v18.6.0
 nvm use unstable
 npm update
 ```
+
+## Test
+``` 
+cd ~/git/testProj/Frontend/src/app/_helpers
+ng test --include='**/_helpers/*.spec.ts'
+```
+
+
+## How to start
+``` 
+git clone git@gitlab.com:nyilas.rp/testProj.git testProj/
+cd ~/git/testProj/
+cd /Frontend
+npm install
+npm update
+npm audit fix
+ng serve --proxy-config proxy.conf.json --open
+``` 
+
+## Other commands
+
+Kill port 4200 in ubuntu
+``` 
+lsof -t -i:4200
+kill -9 $(lsof -t -i:4200)
+```
+### Git commands
+```
+git diff origin/master 
+git add *
+git status
+git commit
+(Ctrl + Y)
+```
+
+``` 
+cd ~/git/testProj/.git
+cat config
+url = git@gitlab.com:nyilas.rp/testProj.git
+``` 
+
+### ng update commands
+```
+ng update
+ng update @angular/cli @angular/core
+npm update --force
+npm audit fix --force
+npm install
+``` 
