@@ -1,4 +1,5 @@
-# Lexy's notes about Angular 10+ & nodeJS
+# Lexy's notes Angular 10+ & nodeJS
+useful commands
 
 ## Install
 ``` 
@@ -12,6 +13,7 @@ nvm use default
 npm update
 ng serve -o
 ``` 
+- Open Browser: http://localhost:4200/.
 
 ## Serve to localhost with proxy:
 ``` 
@@ -32,8 +34,9 @@ ng test --include='**/_helpers/*.spec.ts'
 
 # Nodejs & Library update
 ## Library updates (npm)
-https://angular.io/cli/update
-https://update.angular.io/ 
+- https://angular.io/cli/update
+- https://update.angular.io/
+
 ``` 
 npm i -g npm-upgrade
 npm-upgrade check
@@ -88,7 +91,7 @@ Kill port 4200 in ubuntu
 lsof -t -i:4200
 kill -9 $(lsof -t -i:4200)
 ```
-### Git commands
+Git commands
 ```
 git diff origin/master 
 git add *
@@ -103,7 +106,7 @@ cat config
 url = git@gitlab.com:nyilas.rp/testProj.git
 ``` 
 
-### ng update commands
+ng update commands
 ```
 ng update
 ng update @angular/cli @angular/core
