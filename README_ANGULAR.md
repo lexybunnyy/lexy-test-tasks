@@ -1,5 +1,4 @@
-## What is this?
-This is a file, where I put all of the useful commands about how Angular 10+ and nodejs works.
+# Lexy's notes about Angular 10+ & nodeJS
 
 ## Install
 ``` 
@@ -23,13 +22,16 @@ ng serve --proxy-config proxy.conf.json --open
 ```
 - Open Browser: http://localhost:4200/.
 
-# nodejs check
+
+## Test
 ``` 
-node -v
-nvm list
+cd ~/git/testProj/Frontend/src/app/_helpers
+ng test --include='**/_helpers/*.spec.ts'
 ```
 
-# angular lib updates
+
+# Nodejs & Library update
+## Library updates (npm)
 https://angular.io/cli/update
 https://update.angular.io/ 
 ``` 
@@ -39,7 +41,13 @@ npm install --save --legacy-peer-deps
 npm update
 ``` 
 
-# nodejs set default stable version 
+## nodejs check
+``` 
+node -v
+nvm list
+```
+
+## Nodejs - set default stable version 
 https://nodejs.org/en/ 
 ```
 nvm list
@@ -50,7 +58,7 @@ nvm use default
 npm update
 ``` 
 
-# nodejs set default new version 
+## Nodejs - set default unstable version 
 ```
 nvm list
 
@@ -60,11 +68,6 @@ nvm use unstable
 npm update
 ```
 
-## Test
-``` 
-cd ~/git/testProj/Frontend/src/app/_helpers
-ng test --include='**/_helpers/*.spec.ts'
-```
 
 
 ## How to start
