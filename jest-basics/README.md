@@ -25,20 +25,18 @@ Ha a kód le van fedve teszt esetekkel, könnyebb úgy szépítgetni olvashatób
 ### Jest Telepítése
 
 https://jestjs.io/
-https://jestjs.io/docs/getting-started 
+https://jestjs.io/docs/getting-started
 
 ```bash
 npm install --save-dev jest
 ```
 
-```js
-function sum(a, b) {
-  return a + b;
-}
-module.exports = sum;
-```
+### Jest futtatása
 
-### 
+#### 
+```bash
+npm run test
+```
 
 ## Mire érdemes figyelni? 
 
